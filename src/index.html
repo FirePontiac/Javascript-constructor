@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Constructor</title>
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <script src="./src/index.js"></script> -->
+    <!-- <script src="main.js"></script> -->
+    <div id="app" class="container-fluid">
+    <div id="panel" class="bg-light sidebar">Menu</div> 
+    <div id="site" class="content"></div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyAKwu-fnGHRMdyDJHdU3_tkqIKl-ZHfzkk",
+  authDomain: "javascript-constructor-a6a28.firebaseapp.com",
+  databaseURL: "https://javascript-constructor-a6a28.firebaseio.com",
+  projectId: "javascript-constructor-a6a28",
+  storageBucket: "javascript-constructor-a6a28.appspot.com",
+  messagingSenderId: "412556637809",
+  appId: "1:412556637809:web:47c16c9849082329244dd0",
+  measurementId: "G-W1PQDN6B7D"
+};
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAKwu-fnGHRMdyDJHdU3_tkqIKl-ZHfzkk",
+    authDomain: "javascript-constructor-a6a28.firebaseapp.com",
+    databaseURL: "https://javascript-constructor-a6a28.firebaseio.com",
+    projectId: "javascript-constructor-a6a28",
+    storageBucket: "javascript-constructor-a6a28.appspot.com",
+    messagingSenderId: "412556637809",
+    appId: "1:412556637809:web:47c16c9849082329244dd0",
+    measurementId: "G-W1PQDN6B7D"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script> 
+</body>
+</html>
